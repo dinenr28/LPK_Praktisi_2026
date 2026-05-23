@@ -1,3 +1,14 @@
 import streamlit as st
 
-st.title(" 📊Dashboard")
+st.set_page_config(
+  page_title="LPK_Praktisi_2026".
+  page_icon="🧊"
+  layout="centered",
+  initial_sidebar_state="expanded"
+)
+
+#Hirarki
+st.title("📊 Dashboard)
+st.header("Laporan Bulanan")
+st.subheader("📈Monthly Expenses")
+st.caption("Made with ❤️ using Streamlit ")
